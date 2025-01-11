@@ -69,7 +69,7 @@ Within each main directory, resources are grouped into more specific sub-directo
     terraform apply
     ```
     **Important**: Review the plan output carefully before applying the changes.
-5.  Navigate to the  `AWS/terraform-aws-vpc/Global/aws_nat_gateway/` directory and follow similar steps to apply changes.
+5.  Navigate to the  `AWS/Global/aws_nat_gateway/` directory and follow similar steps to apply changes.
 6.  Similarly, repeat steps 1-4 for the following directories:
     *   `Global/ec2_security_grp/`
     *   `Global/jenkins-lb_security_grp/`
