@@ -11,7 +11,7 @@ The repository is organized into two main directories:
 
 Within each main directory, resources are grouped into more specific sub-directories:
 
-### `AWS/terraform-aws-vpc/Global/`
+### `AWS/Global/`
 
 *   **`aws_nat_gateway/`**: Configuration for AWS NAT Gateway for private subnets.
 *   **`ec2_security_grp/`**: Security group configuration for EC2 instances.
@@ -20,7 +20,7 @@ Within each main directory, resources are grouped into more specific sub-directo
 *   **`lb-frontend-sgp/`**: Security group configuration for the Frontend Load Balancer.
 *   **`vpc/`**: Configuration for the VPC and its subnets.
 
-### `AWS/terraform-aws-vpc/regional/`
+### `AWS/regional/`
 
 *   **`aws_ec2/`**: Configuration for EC2 instances.
 *   **`aws_lambda/`**: Configuration for Lambda functions.
